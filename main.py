@@ -34,7 +34,10 @@ def get_video(df):
                     title='Premier League Clubs Points Since 1992',
                     filename = 'pl_clubs.mp4',
                     filter_column_colors=True,
-                    steps_per_period=10)
+                    period_length=600,
+                    steps_per_period=10,
+                    dpi=300,
+                    cmap='pastel1')
 
 
 def freeze_video():
@@ -51,5 +54,3 @@ def main():
     
 
 main()
-
-# Edit colours per club
