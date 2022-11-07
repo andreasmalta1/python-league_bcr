@@ -41,9 +41,24 @@ def get_video(df):
 
 
 def freeze_video():
-    mainclip = VideoFileClip("pl_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
+    video = VideoFileClip("pl_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
+    logo = (ImageClip("pl.png")
+          .with_duration(video.duration)
+          .resize(height=95)
+          .margin(right=8, top=8, opacity=0)
+          .with_position(("right","top")))
+    
+    footer_one = (TextClip('Stats from fbref.com', font_size=25, color='black')
+                        .with_position((334, video.h - 75))
+                        .with_duration(video.duration)
+                        .with_start(0))
 
-    final = CompositeVideoClip([mainclip])
+    footer_two = (TextClip('Data Viz by Andreas Calleja @andreascalleja', font_size=25, color='black')
+                        .with_position((330, video.h - 40))
+                        .with_duration(video.duration)
+                        .with_start(0))
+          
+    final = CompositeVideoClip([video, logo, footer_one, footer_two])
     final.write_videofile("pl_clubs_long.mp4",fps=24,codec='libx264')
 
 
@@ -51,6 +66,6 @@ def main():
     df = get_final_df()
     get_video(df)
     freeze_video()
-    
+
 
 main()
