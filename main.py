@@ -6,15 +6,17 @@ from moviepy.editor import *
 warnings.filterwarnings("ignore")
 
 
-def get_final_df(base_url, year_start=1992):
+def get_final_df(base_url, year_start):
     df_all_seasons = pd.DataFrame(columns=['Season', 'Squad','Pts'])
     for year in range(year_start, 2022):
+        print(year)
         url = base_url.format(year, year+1, year, year+1)
         html = pd.read_html(url, header=0)
         df = html[0]
         df = df[['Squad', 'Pts']]
         df['Season'] = f'{year}/{year+1}'
         df_all_seasons = pd.concat([df_all_seasons, df], ignore_index=True)
+        time.sleep(10)
 
     df = df_all_seasons.pivot_table(values='Pts', index=['Season'], columns = 'Squad')
 
@@ -26,12 +28,12 @@ def get_final_df(base_url, year_start=1992):
     return df
 
 
-def get_video(competition, df, year=1992):
+def get_video(df, competition_name, league_short_name, year):
     bcr.bar_chart_race(df = df, 
                     n_bars = 15,
                     sort='desc',
-                    title=f'{competition} Clubs Points Since {year}',
-                    filename = f'{competition}_clubs.mp4',
+                    title=f'{competition_name} Clubs Points Since {year}',
+                    filename = f'video/{league_short_name}_clubs.mp4',
                     filter_column_colors=True,
                     period_length=600,
                     steps_per_period=10,
@@ -39,9 +41,9 @@ def get_video(competition, df, year=1992):
                     cmap='pastel1')
 
 
-def freeze_video(competition):
-    video = VideoFileClip(f"{competition}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
-    logo = (ImageClip("pl.png")
+def freeze_video(league_short_name):
+    video = VideoFileClip(f"video/{league_short_name}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
+    logo = (ImageClip(f"logo/{league_short_name}.png")
           .with_duration(video.duration)
           .resize(height=95)
           .margin(right=8, top=8, opacity=0)
@@ -58,7 +60,7 @@ def freeze_video(competition):
                         .with_start(0))
           
     final = CompositeVideoClip([video, logo, footer_one, footer_two])
-    final.write_videofile(f'{competition}_clubs_long.mp4',fps=24,codec='libx264')
+    final.write_videofile(f'{league_short_name}_clubs_final.mp4',fps=24,codec='libx264')
 
 
 def main():
@@ -70,39 +72,36 @@ def main():
 
     league_urls = {'Premier League': 
                         {'shorthand': 'epl',
-                        'url': pl_url},
+                        'url': pl_url,
+                        'start_year': 1992},
                     'La Liga': 
                         {'shorthand': 'la_liga',
-                        'url': la_liga_url},
+                        'url': la_liga_url,
+                        'start_year': 1992},
                     'Serie A': 
                         {'shorthand': 'seria_a',
-                        'url': seria_a_url},
+                        'url': seria_a_url,
+                        'start_year': 1992},
                     'Ligue 1': 
                         {'shorthand': 'ligue_1',
-                        'url': ligue_1_url},
+                        'url': ligue_1_url,
+                        'start_year': 1995},
                     'Bundesliga': 
                         {'shorthand': 'bundesliga',
-                        'url': bundesliga_url}}
+                        'url': bundesliga_url,
+                        'start_year': 1992}}
     
-    for competition in league_urls:
-        url = league_urls[competition]
-        if competition == 'Ligue 1':
-            df = get_final_df(url, 1995)
-            get_video(competition, 1995, df)
-        else:
-            df = get_final_df(url)
-            get_video(competition, df)
-        
-        
-        freeze_video(competition)
+    for competition_name in league_urls:
+        url = league_urls[competition_name]['url']
+        league_short_name = league_urls[competition_name]['shorthand']
+        year = league_urls[competition_name]['start_year']
 
-
-    # Combined from first available year
-    # From start of every competiton
-    # Combined cl group stage
-    # Download logos and use logos
-    # shorthand name files
-    # Place videos in separte folder
+        print(url)
+        
+        df = get_final_df(url, year)
+        print(df.head())
+        get_video(df, competition_name, league_short_name, year)
+        freeze_video(competition_name, league_short_name)
     
 
 main()
