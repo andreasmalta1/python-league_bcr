@@ -68,11 +68,21 @@ def main():
     ligue_1_url = 'https://fbref.com/en/comps/13/{}-{}/{}-{}-Division-1-Stats' # 1995
     bundesliga_url = 'https://fbref.com/en/comps/20/{}-{}/{}-{}-Bundesliga-Stats'
 
-    league_urls = {'Premier League': pl_url,
-                'La Liga': la_liga_url,
-                'Serie A': seria_a_url,
-                'Ligue 1': ligue_1_url,
-                'Bundesliga': bundesliga_url}
+    league_urls = {'Premier League': 
+                        {'shorthand': 'epl',
+                        'url': pl_url},
+                    'La Liga': 
+                        {'shorthand': 'la_liga',
+                        'url': la_liga_url},
+                    'Serie A': 
+                        {'shorthand': 'seria_a',
+                        'url': seria_a_url},
+                    'Ligue 1': 
+                        {'shorthand': 'ligue_1',
+                        'url': ligue_1_url},
+                    'Bundesliga': 
+                        {'shorthand': 'bundesliga',
+                        'url': bundesliga_url}}
     
     for competition in league_urls:
         url = league_urls[competition]
