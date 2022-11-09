@@ -2,21 +2,22 @@ import pandas as pd
 import bar_chart_race as bcr
 import warnings
 from moviepy.editor import *
+import time
 
 warnings.filterwarnings("ignore")
 
 
-def get_final_df(base_url, year_start):
+def get_final_df(league_short_name, year_start):
     df_all_seasons = pd.DataFrame(columns=['Season', 'Squad','Pts'])
     for year in range(year_start, 2022):
         print(year)
-        url = base_url.format(year, year+1, year, year+1)
-        html = pd.read_html(url, header=0)
-        df = html[0]
+        # url = base_url.format(year, year+1, year, year+1)
+        # html = pd.read_html(url, header=0)
+        # df = html[0]
+        df = pd.read_csv(f'csvs/{league_short_name}/{league_short_name}_{year}-{year+1}.csv')
         df = df[['Squad', 'Pts']]
         df['Season'] = f'{year}/{year+1}'
         df_all_seasons = pd.concat([df_all_seasons, df], ignore_index=True)
-        time.sleep(10)
 
     df = df_all_seasons.pivot_table(values='Pts', index=['Season'], columns = 'Squad')
 
@@ -64,44 +65,30 @@ def freeze_video(league_short_name):
 
 
 def main():
-    pl_url = 'https://fbref.com/en/comps/9/{}-{}/{}-{}-Premier-League-Stats'
-    la_liga_url = 'https://fbref.com/en/comps/12/{}-{}/{}-{}-La-Liga-Stats'
-    seria_a_url = 'https://fbref.com/en/comps/11/{}-{}/{}-{}-Serie-A-Stats'
-    ligue_1_url = 'https://fbref.com/en/comps/13/{}-{}/{}-{}-Division-1-Stats' # 1995
-    bundesliga_url = 'https://fbref.com/en/comps/20/{}-{}/{}-{}-Bundesliga-Stats'
-
-    league_urls = {'Premier League': 
+    leagues = {'Premier League': 
                         {'shorthand': 'epl',
-                        'url': pl_url,
                         'start_year': 1992},
                     'La Liga': 
                         {'shorthand': 'la_liga',
-                        'url': la_liga_url,
                         'start_year': 1992},
                     'Serie A': 
                         {'shorthand': 'seria_a',
-                        'url': seria_a_url,
                         'start_year': 1992},
                     'Ligue 1': 
                         {'shorthand': 'ligue_1',
-                        'url': ligue_1_url,
                         'start_year': 1995},
                     'Bundesliga': 
                         {'shorthand': 'bundesliga',
-                        'url': bundesliga_url,
                         'start_year': 1992}}
     
-    for competition_name in league_urls:
-        url = league_urls[competition_name]['url']
-        league_short_name = league_urls[competition_name]['shorthand']
-        year = league_urls[competition_name]['start_year']
-
-        print(url)
+    for competition_name in leagues:
+        league_short_name = leagues[competition_name]['shorthand']
+        year = leagues[competition_name]['start_year']
         
-        df = get_final_df(url, year)
-        print(df.head())
+        df = get_final_df(league_short_name, year)
         get_video(df, competition_name, league_short_name, year)
         freeze_video(competition_name, league_short_name)
+        break
     
 
 main()
