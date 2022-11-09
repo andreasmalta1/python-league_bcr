@@ -69,7 +69,7 @@ def main():
                         'start_year': 1988},
                     'Serie A': 
                         {'shorthand': 'seria_a',
-                        'start_year': 1992},
+                        'start_year': 1988},
                     'Ligue 1': 
                         {'shorthand': 'ligue_1',
                         'start_year': 1995},
