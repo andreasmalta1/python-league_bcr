@@ -75,7 +75,7 @@ def main():
                         'start_year': 1995},
                     'Bundesliga': 
                         {'shorthand': 'bundesliga',
-                        'start_year': 1992}}
+                        'start_year': 1988}}
     
     for competition_name in leagues:
         league_short_name = leagues[competition_name]['shorthand']
