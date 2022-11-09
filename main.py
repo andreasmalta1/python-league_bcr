@@ -2,7 +2,6 @@ import pandas as pd
 import bar_chart_race as bcr
 import warnings
 from moviepy.editor import *
-import time
 
 warnings.filterwarnings("ignore")
 
@@ -10,10 +9,6 @@ warnings.filterwarnings("ignore")
 def get_final_df(league_short_name, year_start):
     df_all_seasons = pd.DataFrame(columns=['Season', 'Squad','Pts'])
     for year in range(year_start, 2022):
-        print(year)
-        # url = base_url.format(year, year+1, year, year+1)
-        # html = pd.read_html(url, header=0)
-        # df = html[0]
         df = pd.read_csv(f'csvs/{league_short_name}/{league_short_name}_{year}-{year+1}.csv')
         df = df[['Squad', 'Pts']]
         df['Season'] = f'{year}/{year+1}'
@@ -34,7 +29,7 @@ def get_video(df, competition_name, league_short_name, year):
                     n_bars = 15,
                     sort='desc',
                     title=f'{competition_name} Clubs Points Since {year}',
-                    filename = f'video/{league_short_name}_clubs.mp4',
+                    filename = f'videos/{league_short_name}_clubs.mp4',
                     filter_column_colors=True,
                     period_length=600,
                     steps_per_period=10,
@@ -43,8 +38,8 @@ def get_video(df, competition_name, league_short_name, year):
 
 
 def freeze_video(league_short_name):
-    video = VideoFileClip(f"video/{league_short_name}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
-    logo = (ImageClip(f"logo/{league_short_name}.png")
+    video = VideoFileClip(f"videos/{league_short_name}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
+    logo = (ImageClip(f"logos/{league_short_name}.png")
           .with_duration(video.duration)
           .resize(height=95)
           .margin(right=8, top=8, opacity=0)
@@ -61,7 +56,7 @@ def freeze_video(league_short_name):
                         .with_start(0))
           
     final = CompositeVideoClip([video, logo, footer_one, footer_two])
-    final.write_videofile(f'{league_short_name}_clubs_final.mp4',fps=24,codec='libx264')
+    final.write_videofile(f'videos/{league_short_name}_clubs_final.mp4',fps=24,codec='libx264')
 
 
 def main():
@@ -87,8 +82,7 @@ def main():
         
         df = get_final_df(league_short_name, year)
         get_video(df, competition_name, league_short_name, year)
-        freeze_video(competition_name, league_short_name)
-        break
+        freeze_video(league_short_name)
     
 
 main()
