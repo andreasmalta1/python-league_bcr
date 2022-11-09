@@ -2,6 +2,7 @@ import pandas as pd
 import bar_chart_race as bcr
 import warnings
 from moviepy.editor import *
+import time
 
 warnings.filterwarnings("ignore")
 
@@ -65,7 +66,7 @@ def main():
                         'start_year': 1992},
                     'La Liga': 
                         {'shorthand': 'la_liga',
-                        'start_year': 1992},
+                        'start_year': 1988},
                     'Serie A': 
                         {'shorthand': 'seria_a',
                         'start_year': 1992},
