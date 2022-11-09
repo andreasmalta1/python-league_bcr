@@ -32,14 +32,15 @@ def get_video(df, competition_name, league_short_name, year):
                     title=f'{competition_name} Clubs Points Since {year}',
                     filename = f'videos/{league_short_name}_clubs.mp4',
                     filter_column_colors=True,
-                    period_length=600,
-                    steps_per_period=10,
+                    period_length=750,
+                    steps_per_period=40,
                     dpi=300,
                     cmap='pastel1')
 
 
 def freeze_video(league_short_name):
     video = VideoFileClip(f"videos/{league_short_name}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
+    video = video.fx(vfx.multiply_speed, 0.5)
     logo = (ImageClip(f"logos/{league_short_name}.png")
           .with_duration(video.duration)
           .resize(height=95)
@@ -84,6 +85,7 @@ def main():
         df = get_final_df(league_short_name, year)
         get_video(df, competition_name, league_short_name, year)
         freeze_video(league_short_name)
+        break
     
 
 main()
