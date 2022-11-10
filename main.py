@@ -3,11 +3,12 @@ import bar_chart_race as bcr
 import warnings
 from moviepy.editor import *
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
+import time
 
 warnings.filterwarnings("ignore")
 
 
-def get_final_df(league_short_name, year_start):
+def get_seasons_df(league_short_name, year_start):
     df_all_seasons = pd.DataFrame(columns=['Season', 'Squad','Pts'])
     for year in range(year_start, 2022):
         df = pd.read_csv(f'csvs/{league_short_name}/{league_short_name}_{year}-{year+1}.csv')
@@ -15,7 +16,12 @@ def get_final_df(league_short_name, year_start):
         df['Season'] = f'{year}/{year+1}'
         df_all_seasons = pd.concat([df_all_seasons, df], ignore_index=True)
 
-    df = df_all_seasons.pivot_table(values='Pts', index=['Season'], columns = 'Squad')
+    return df_all_seasons
+
+
+def get_final_df(df):
+
+    df = df.pivot_table(values='Pts', index=['Season'], columns = 'Squad')
 
     df.fillna(0, inplace=True)
     df.sort_values(list(df.columns),inplace=True)
@@ -83,9 +89,14 @@ def main():
         league_short_name = leagues[competition_name]['shorthand']
         year = leagues[competition_name]['start_year']
         
-        df = get_final_df(league_short_name, year)
+        df = get_seasons_df(league_short_name, year)
+        df = get_final_df(df)
         get_video(df, competition_name, league_short_name, year)
         freeze_video(league_short_name)
     
+    df = get_final_df(pd.read_csv(f'csvs/combined_leagues.csv'))
+    get_video(df, 'Combined Top 5 Leagues', 'combined', 1995)
+    freeze_video('combined')
+
 
 main()

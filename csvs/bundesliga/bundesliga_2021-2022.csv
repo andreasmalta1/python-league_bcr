@@ -1,21 +1,19 @@
 Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,xG,xGA,xGD,xGD/90,Attendance,Top Team Scorer,Goalkeeper,Notes
-1,Paris S-G,38,26,8,4,90,36,54,86,2.26,84.5,43.2,41.3,1.09,41589,Kylian Mbappé - 28,Keylor Navas,→ Europa League via league finish
-2,Marseille,38,21,8,9,63,38,25,71,1.87,63.3,41.2,22.0,0.58,51755,Dimitri Payet - 12,Pau López,→ Europa Conference League via league finish
-3,Monaco,38,20,9,9,65,40,25,69,1.82,66.1,45.0,21.0,0.55,5877,Wissam Ben Yedder - 25,Alexander Nübel,
-4,Rennes,38,20,6,12,82,40,42,66,1.74,69.9,47.4,22.4,0.59,25493,Martin Terrier - 21,Alfred Gomis,
-5,Nice,38,20,7,11,52,36,16,66,1.74,60.7,48.6,12.2,0.32,16055,Andy Delort - 16,Walter Benítez,1-point deduction 1
-6,Strasbourg,38,17,12,9,60,43,17,63,1.66,62.5,50.7,11.8,0.31,23555,Ludovic Ajorque - 12,Matz Sels,
-7,Lens,38,17,11,10,62,48,14,62,1.63,57.7,49.0,8.6,0.23,28950,Arnaud Kalimuendo - 12,Jean-Louis Leca,
-8,Lyon,38,17,11,10,66,51,15,61,1.61,76.3,59.0,17.2,0.45,32329,Moussa Dembélé - 21,Anthony Lopes,1-point deduction 2
-9,Nantes,38,15,10,13,55,48,7,55,1.45,50.9,56.5,-5.6,-0.15,20803,Randal Kolo Muani - 12,Alban Lafont,→ Europa League via cup win
-10,Lille,38,14,13,11,48,48,0,55,1.45,56.2,45.8,10.4,0.27,34346,Jonathan David - 15,Ivo Grbić,
-11,Brest,38,13,9,16,49,57,-8,48,1.26,48.9,64.3,-15.4,-0.41,11804,Franck Honorat - 11,Marco Bizot,
-12,Reims,38,11,13,14,43,44,-1,46,1.21,43.9,54.4,-10.5,-0.28,11071,Hugo Ekitike - 10,Predrag Rajković,
-13,Montpellier,38,12,7,19,49,61,-12,43,1.13,45.7,64.1,-18.4,-0.48,10711,Sepe Elye Wahi - 10,Jonas Omlin,
-14,Angers,38,10,11,17,44,55,-11,41,1.08,49.6,55.3,-5.7,-0.15,7758,Sofiane Boufal - 8,Danijel Petković,
-15,Troyes,38,9,11,18,37,53,-16,38,1.0,44.0,55.9,-11.9,-0.31,9491,"Xavier Chavalerin, Ike Ugbo - 5",Gauthier Gallon,
-16,Lorient,38,8,12,18,35,63,-28,36,0.95,47.9,57.4,-9.5,-0.25,12738,Terem Moffi - 8,Paul Nardi,
-17,Clermont Foot,38,9,9,20,38,69,-31,36,0.95,49.3,61.3,-12.0,-0.32,10569,Mohamed Lamine Bayo - 14,Ouparine Djoco,
-18,Saint-Étienne,38,7,11,20,42,77,-35,32,0.84,44.5,63.7,-19.2,-0.5,21806,Wahbi Khazri - 10,Paul Bernardoni,→ French 1/2 Relegation/Promotion Playoff
-19,Metz,38,6,13,19,35,69,-34,31,0.82,34.1,69.6,-35.5,-0.93,14876,Nicolas de Préville - 5,Alexandre Oukidja,Relegated
-20,Bordeaux,38,6,13,19,52,91,-39,31,0.82,49.4,72.8,-23.4,-0.61,22141,Hwang Ui-jo - 11,Benoît Costil,Relegated 3
+1,Bayern Munich,34,24,5,5,97,37,60,77,2.26,95.4,39.5,56.0,1.65,33176,Robert Lewandowski - 35,Manuel Neuer,→ Champions League via league finish
+2,Dortmund,34,22,3,9,85,52,33,69,2.03,68.0,50.9,17.1,0.5,41800,Erling Haaland - 22,Gregor Kobel,→ Champions League via league finish
+3,Leverkusen,34,19,7,8,80,47,33,64,1.88,68.5,49.7,18.8,0.55,17356,Patrik Schick - 24,Lukáš Hrádecký,→ Champions League via league finish
+4,RB Leipzig,34,17,7,10,72,37,35,58,1.71,69.5,43.9,25.6,0.75,22124,Christopher Nkunku - 20,Péter Gulácsi,→ Champions League via league finish
+5,Union Berlin,34,16,9,9,50,44,6,57,1.68,53.9,42.8,11.1,0.33,14046,Taiwo Awoniyi - 15,Andreas Luthe,→ Europa League via league finish
+6,Freiburg,34,15,10,9,58,46,12,55,1.62,55.0,50.8,4.2,0.12,18741,Vincenzo Grifo - 9,Mark Flekken,→ Europa League via league finish
+7,Köln,34,14,10,10,52,49,3,52,1.53,56.2,56.2,0.0,0.0,31965,Anthony Modeste - 20,Marvin Schwäbe,→ Europa Conference League via league finish
+8,Mainz 05,34,13,7,14,50,45,5,46,1.35,56.4,48.2,8.2,0.24,17978,Jonathan Burkardt - 11,Robin Zentner,
+9,Hoffenheim,34,13,7,14,58,60,-2,46,1.35,62.9,58.1,4.9,0.14,11227,Georginio Rutter - 8,Oliver Baumann,
+10,M'Gladbach,34,12,9,13,54,61,-7,45,1.32,63.7,62.5,1.2,0.04,26539,Jonas Hofmann - 12,Yann Sommer,
+11,Eint Frankfurt,34,10,12,12,45,49,-4,42,1.24,48.7,52.8,-4.1,-0.12,26162,Rafael Borré - 8,Kevin Trapp,
+12,Wolfsburg,34,12,6,16,43,54,-11,42,1.24,51.1,52.5,-1.4,-0.04,12018,Lukas Nmecha - 8,Koen Casteels,
+13,Bochum,34,12,6,16,38,52,-14,42,1.24,47.5,60.3,-12.7,-0.37,14236,Sebastian Polter - 10,Manuel Riemann,
+14,Augsburg,34,10,8,16,39,56,-17,38,1.12,40.7,64.5,-23.8,-0.7,15197,Michael Gregoritsch - 9,Rafał Gikiewicz,
+15,Stuttgart,34,7,12,15,41,59,-18,33,0.97,49.5,61.6,-12.0,-0.35,27052,Sasa Kalajdzic - 6,Florian Müller,
+16,Hertha BSC,34,9,6,19,37,71,-34,33,0.97,37.2,58.4,-21.1,-0.62,23500,Stevan Jovetić - 6,Alexander Schwolow,→ German 1/2 Relegation/Promotion Play-offs
+17,Arminia,34,5,13,16,27,53,-26,28,0.82,32.5,70.6,-38.1,-1.12,16773,Masaya Okugawa - 8,Stefan Ortega,Relegated
+18,Greuther Fürth,34,3,9,22,28,82,-54,18,0.53,33.7,67.5,-33.8,-0.99,7672,Branimir Hrgota - 9,Sascha Burchert,Relegated

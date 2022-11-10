@@ -11,7 +11,7 @@ def main():
             frames = [df_result, df_temp]
             df_result = pd.concat(frames)
     
-    df_result.to_csv('csvs\combines-leagues.csv', index=False)
+    df_result.to_csv('csvs\combined_leagues.csv', index=False)
 
 
 main()
