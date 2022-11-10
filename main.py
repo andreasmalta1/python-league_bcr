@@ -2,7 +2,7 @@ import pandas as pd
 import bar_chart_race as bcr
 import warnings
 from moviepy.editor import *
-import time
+from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 
 warnings.filterwarnings("ignore")
 
@@ -32,15 +32,15 @@ def get_video(df, competition_name, league_short_name, year):
                     title=f'{competition_name} Clubs Points Since {year}',
                     filename = f'videos/{league_short_name}_clubs.mp4',
                     filter_column_colors=True,
-                    period_length=750,
-                    steps_per_period=40,
+                    period_length=700,
+                    steps_per_period=30,
                     dpi=300,
                     cmap='pastel1')
 
 
 def freeze_video(league_short_name):
-    video = VideoFileClip(f"videos/{league_short_name}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
-    video = video.fx(vfx.multiply_speed, 0.5)
+    video = VideoFileClip(f"videos/{league_short_name}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=3).fx(vfx.multiply_speed, 0.5)
+    
     logo = (ImageClip(f"logos/{league_short_name}.png")
           .with_duration(video.duration)
           .resize(height=95)
@@ -58,7 +58,8 @@ def freeze_video(league_short_name):
                         .with_start(0))
           
     final = CompositeVideoClip([video, logo, footer_one, footer_two])
-    final.write_videofile(f'videos/{league_short_name}_clubs_final.mp4',fps=24,codec='libx264')
+    ffmpeg_extract_subclip("video1.mp4", 0, (final.duration - 3), targetname="test.mp4")
+    final.write_videofile(f'videos/{league_short_name}_clubs_final.mp4',codec='libx264')
 
 
 def main():
@@ -69,7 +70,7 @@ def main():
                         {'shorthand': 'la_liga',
                         'start_year': 1988},
                     'Serie A': 
-                        {'shorthand': 'seria_a',
+                        {'shorthand': 'serie_a',
                         'start_year': 1988},
                     'Ligue 1': 
                         {'shorthand': 'ligue_1',
@@ -85,7 +86,6 @@ def main():
         df = get_final_df(league_short_name, year)
         get_video(df, competition_name, league_short_name, year)
         freeze_video(league_short_name)
-        break
     
 
 main()
