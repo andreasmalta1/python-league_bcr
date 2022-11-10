@@ -2,17 +2,15 @@ import pandas as pd
 import bar_chart_race as bcr
 import warnings
 from moviepy.editor import *
+from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 
 warnings.filterwarnings("ignore")
 
 
-def get_final_df():
+def get_final_df(league_short_name, year_start):
     df_all_seasons = pd.DataFrame(columns=['Season', 'Squad','Pts'])
-    base_url = 'https://fbref.com/en/comps/9/{}-{}/{}-{}-Premier-League-Stats'
-    for year in range(1992, 2022):
-        url = base_url.format(year, year+1, year, year+1)
-        html = pd.read_html(url, header=0)
-        df = html[0]
+    for year in range(year_start, 2022):
+        df = pd.read_csv(f'csvs/{league_short_name}/{league_short_name}_{year}-{year+1}.csv')
         df = df[['Squad', 'Pts']]
         df['Season'] = f'{year}/{year+1}'
         df_all_seasons = pd.concat([df_all_seasons, df], ignore_index=True)
@@ -27,22 +25,23 @@ def get_final_df():
     return df
 
 
-def get_video(df):
+def get_video(df, competition_name, league_short_name, year):
     bcr.bar_chart_race(df = df, 
                     n_bars = 15,
                     sort='desc',
-                    title='Premier League Clubs Points Since 1992',
-                    filename = 'pl_clubs.mp4',
+                    title=f'{competition_name} Clubs Points Since {year}',
+                    filename = f'videos/{league_short_name}_clubs.mp4',
                     filter_column_colors=True,
-                    period_length=600,
-                    steps_per_period=10,
+                    period_length=700,
+                    steps_per_period=30,
                     dpi=300,
                     cmap='pastel1')
 
 
-def freeze_video():
-    video = VideoFileClip("pl_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=1)
-    logo = (ImageClip("pl.png")
+def freeze_video(league_short_name):
+    video = VideoFileClip(f"videos/{league_short_name}_clubs.mp4").fx(vfx.freeze, t='end', freeze_duration=3).fx(vfx.multiply_speed, 0.5)
+    
+    logo = (ImageClip(f"logos/{league_short_name}.png")
           .with_duration(video.duration)
           .resize(height=95)
           .margin(right=8, top=8, opacity=0)
@@ -59,13 +58,34 @@ def freeze_video():
                         .with_start(0))
           
     final = CompositeVideoClip([video, logo, footer_one, footer_two])
-    final.write_videofile("pl_clubs_long.mp4",fps=24,codec='libx264')
+    final.write_videofile(f'videos/{league_short_name}_clubs_draft.mp4',codec='libx264')
+    ffmpeg_extract_subclip(f'videos/{league_short_name}_clubs_draft.mp4', 0, (final.duration - 3), f'videos/final/{league_short_name}_clubs.mp4')
 
 
 def main():
-    df = get_final_df()
-    get_video(df)
-    freeze_video()
-
+    leagues = {'Premier League': 
+                        {'shorthand': 'epl',
+                        'start_year': 1992},
+                    'La Liga': 
+                        {'shorthand': 'la_liga',
+                        'start_year': 1988},
+                    'Serie A': 
+                        {'shorthand': 'serie_a',
+                        'start_year': 1988},
+                    'Ligue 1': 
+                        {'shorthand': 'ligue_1',
+                        'start_year': 1995},
+                    'Bundesliga': 
+                        {'shorthand': 'bundesliga',
+                        'start_year': 1988}}
+    
+    for competition_name in leagues:
+        league_short_name = leagues[competition_name]['shorthand']
+        year = leagues[competition_name]['start_year']
+        
+        df = get_final_df(league_short_name, year)
+        get_video(df, competition_name, league_short_name, year)
+        freeze_video(league_short_name)
+    
 
 main()
