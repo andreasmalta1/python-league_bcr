@@ -1,21 +1,19 @@
 Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,Attendance,Top Team Scorer,Goalkeeper,Notes
-1,Bordeaux,38,24,8,6,64,34,30,80,2.11,26953,"Fernando Cavenaghi, Marouane Chamakh - 13",Ulrich Ramé,→ Champions League via league finish
-2,Marseille,38,22,11,5,67,35,32,77,2.03,52162,Mamadou Niang - 14,Steve Mandanda,→ Champions League via league finish
-3,Lyon,38,20,11,7,52,29,23,71,1.87,37397,Karim Benzema - 17,Hugo Lloris,→ Champions League via league finish
-4,Toulouse,38,16,16,6,45,27,18,64,1.68,20076,André-Pierre Gignac - 24,Cédric Carrasso,→ Europa League via league finish
-5,Lille,38,17,13,8,51,39,12,64,1.68,17202,Michel Bastos - 14,Grégory Malicki,→ Europa League via league finish 1
-6,Paris S-G,38,19,7,12,49,38,11,64,1.68,40902,Guillaume Hoarau - 17,Mickaël Landreau,
-7,Rennes,38,15,16,7,42,34,8,61,1.61,24063,Moussa Sow - 9,Nicolas Douchez,
-8,Auxerre,38,16,7,15,35,35,0,55,1.45,12914,Ireneusz Jeleń - 14,Rémy Riou,
-9,Nice,38,13,11,14,40,41,-1,50,1.32,10006,Loïc Rémy - 11,David Ospina,
-10,Lorient,38,10,15,13,47,47,0,45,1.18,11400,Kévin Gameiro - 11,Fabien Audard,
-11,Monaco,38,11,12,15,41,45,-4,45,1.18,8512,Alexandre Licata - 7,Stéphane Ruffier,
-12,Valenciennes,38,10,14,14,35,42,-7,44,1.16,12167,"Johan Audel, Grégory Pujol - 7",Nicolas Penneteau,
-13,Grenoble,38,10,14,14,24,37,-13,44,1.16,16264,Nassim Akrour - 6,Grégory Wimbée,
-14,Sochaux,38,10,12,16,40,48,-8,42,1.11,14659,Mevlüt Erdinç - 11,Teddy Richert,
-15,Nancy,38,10,12,16,38,47,-9,42,1.11,17040,Youssouf Hadji - 11,Gennaro Bracigliano,
-16,Le Mans,38,10,10,18,43,54,-11,40,1.05,10411,Thorstein Helstad - 10,Yohann Pelé,
-17,Saint-Étienne,38,11,7,20,40,56,-16,40,1.05,28168,"Bafétimbi Gomis, Ilan - 9",Jérémie Janot,
-18,Caen,38,8,13,17,42,49,-7,37,0.97,18914,Steve Savidan - 14,Vincent Planté,Relegated
-19,Nantes,38,9,10,19,33,54,-21,37,0.97,24138,Mamadou Bagayoko - 7,Jérôme Alonzo,Relegated
-20,Le Havre,38,7,5,26,30,67,-37,26,0.68,13566,Amadou Alassane - 10,Christophe Revault,Relegated
+1,Wolfsburg,34,21,6,7,80,41,39,69,2.03,27194,Grafite - 28,Diego Benaglio,→ Champions League via league finish
+2,Bayern Munich,34,20,7,7,71,42,29,67,1.97,68647,Luca Toni - 14,Michael Rensing,→ Champions League via league finish
+3,Stuttgart,34,19,7,8,63,43,20,64,1.88,52176,Mario Gómez - 24,Jens Lehmann,→ Champions League via league finish
+4,Hertha BSC,34,19,6,9,48,41,7,63,1.85,52170,Andriy Voronin - 11,Jaroslav Drobný,→ Europa League via league finish
+5,Hamburger SV,34,19,4,11,49,47,2,61,1.79,54830,Mladen Petrić - 12,Frank Rost,→ Europa League via league finish
+6,Dortmund,34,15,14,5,60,37,23,59,1.74,74483,Alexander Frei - 12,Roman Weidenfeller,
+7,Hoffenheim,34,15,10,9,63,49,14,55,1.62,28089,Vedad Ibišević - 18,Daniel Haas,
+8,Schalke 04,34,14,8,12,47,35,12,50,1.47,61366,Kevin Kurányi - 13,Manuel Neuer,
+9,Leverkusen,34,14,7,13,59,46,13,49,1.44,27838,Patrick Helmes - 21,René Adler,
+10,Werder Bremen,34,12,9,13,64,50,14,45,1.32,40051,Claudio Pizarro - 17,Tim Wiese,
+11,Hannover 96,34,10,10,14,49,69,-20,40,1.18,41860,Jiří Štajner - 8,Robert Enke,
+12,Köln,34,11,6,17,35,50,-15,39,1.15,49018,Milivoje Novaković - 16,Faryd Mondragón,
+13,Eint Frankfurt,34,8,9,17,39,60,-21,33,0.97,46359,Nikos Liberopoulos - 9,Oka Nikolov,
+14,Bochum,34,7,11,16,39,55,-16,32,0.94,25577,Stanislav Šesták - 9,Daniel Fernandes,
+15,M'Gladbach,34,8,7,19,39,62,-23,31,0.91,47953,Rob Friend - 7,Logan Bailly,
+16,Energie Cottbus,34,8,6,20,30,57,-27,30,0.88,20671,Dimitar Rangelov - 9,Gerhard Tremmel,→ German 1/2 Relegation/Promotion Playoffs
+17,Karlsruher,34,8,5,21,30,54,-24,29,0.85,28299,Sebastian Freis - 9,Markus Miller,Relegated
+18,Arminia,34,4,16,14,29,56,-27,28,0.82,22241,Artur Wichniarek - 13,Dennis Eilhoff,Relegated

@@ -1,21 +1,19 @@
 Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,Attendance,Top Team Scorer,Goalkeeper,Notes
-1,Monaco,38,30,5,3,107,31,76,95,2.5,9586,Radamel Falcao - 21,Danijel Subašić,→ Champions League via league finish
-2,Paris S-G,38,27,6,5,83,27,56,87,2.29,45160,Edinson Cavani - 35,Kevin Trapp,→ Champions League via league finish
-3,Nice,38,22,12,4,63,36,27,78,2.05,22949,Mario Balotelli - 15,Yoan Cardinale,→ Champions League via league finish
-4,Lyon,38,21,4,13,77,48,29,67,1.76,39171,Alexandre Lacazette - 28,Anthony Lopes,→ Europa League via league finish 1
-5,Marseille,38,17,11,10,57,41,16,62,1.63,39894,Bafétimbi Gomis - 20,Yohann Pelé,→ Europa League via league finish 2
-6,Bordeaux,38,15,14,9,53,43,10,59,1.55,24217,Diego Rolán - 9,Cédric Carrasso,→ Europa League via league finish
-7,Nantes,38,14,9,15,40,54,-14,51,1.34,23152,Emiliano Sala - 12,Rémy Riou,
-8,Saint-Étienne,38,12,14,12,41,42,-1,50,1.32,25794,Romain Hamouma - 7,Stéphane Ruffier,
-9,Rennes,38,12,14,12,36,42,-6,50,1.32,22688,Giovanni Sio - 9,Benoît Costil,
-10,Guingamp,38,14,8,16,46,53,-7,50,1.32,14790,Jimmy Briand - 12,Karl-Johan Johnsson,
-11,Lille,38,13,7,18,40,47,-7,46,1.21,29487,Nicolas de Préville - 14,Vincent Enyeama,
-12,Angers,38,13,7,18,40,49,-9,46,1.21,11956,Famara Diedhiou - 8,Mathieu Michel,
-13,Toulouse,38,10,14,14,37,41,-4,44,1.16,17067,Martin Braithwaite - 11,Alban Lafont,
-14,Metz,38,11,10,17,39,72,-33,43,1.13,15343,Cheick Diabaté - 8,Thomas Didillon,
-15,Montpellier,38,10,9,19,48,66,-18,39,1.03,12356,Steve Mounié - 14,Laurent Pionnier,
-16,Dijon,38,8,13,17,46,58,-12,37,0.97,10126,Lois Diony - 11,Baptiste Reynet,
-17,Caen,38,10,7,21,36,65,-29,37,0.97,16755,Ivan Santini - 15,Rémy Vercoutre,
-18,Lorient,38,10,6,22,44,70,-26,36,0.95,11847,Benjamin Moukandjo - 13,Benjamin Lecomte,→ French 1/2 Relegation/Promotion Playoffs
-19,Nancy,38,9,8,21,29,52,-23,35,0.92,17516,Issiar Dia - 8,Guy N'dy Assembé,Relegated
-20,Bastia,38,8,10,20,29,54,-25,34,0.89,9405,Enzo Crivelli - 10,Jean-Louis Leca,Relegated 3
+1,Bayern Munich,34,25,7,2,89,22,67,82,2.41,75000,Robert Lewandowski - 30,Manuel Neuer,→ Champions League via league finish
+2,RB Leipzig,34,20,7,7,66,39,27,67,1.97,41455,Timo Werner - 21,Péter Gulácsi,→ Champions League via league finish
+3,Dortmund,34,18,10,6,72,40,32,64,1.88,79653,Pierre-Emerick Aubameyang - 31,Roman Bürki,→ Champions League via league finish
+4,Hoffenheim,34,16,14,4,64,37,27,62,1.82,28155,Andrej Kramarić - 15,Oliver Baumann,→ Champions League via league finish
+5,Köln,34,12,13,9,51,42,9,49,1.44,49571,Anthony Modeste - 25,Timo Horn,→ Europa League via league finish
+6,Hertha BSC,34,15,4,15,43,47,-4,49,1.44,50267,Vedad Ibišević - 12,Rune Jarstein,→ Europa League via league finish 1
+7,Freiburg,34,14,6,14,42,60,-18,48,1.41,23959,Florian Niederlechner - 11,Alexander Schwolow,→ Europa League via league finish
+8,Werder Bremen,34,13,6,15,61,64,-3,45,1.32,40881,Max Kruse - 15,Felix Wiedwald,
+9,M'Gladbach,34,12,9,13,45,49,-4,45,1.32,51494,Lars Stindl - 11,Yann Sommer,
+10,Schalke 04,34,11,10,13,45,40,5,43,1.26,60703,Guido Burgstaller - 9,Ralf Fährmann,
+11,Eint Frankfurt,34,11,9,14,36,43,-7,42,1.24,49165,Marco Fabián - 7,Lukáš Hrádecký,
+12,Leverkusen,34,11,8,15,53,55,-2,41,1.21,28428,Javier Hernández - 11,Bernd Leno,
+13,Augsburg,34,9,11,14,35,51,-16,38,1.12,28172,Halil Altıntop - 6,Marwin Hitz,
+14,Hamburger SV,34,10,8,16,33,61,-28,38,1.12,52341,"Bobby Wood, Michael Gregoritsch... - 5",René Adler,
+15,Mainz 05,34,10,7,17,44,55,-11,37,1.09,29026,Yunus Mallı - 6,Jonas Lössl,
+16,Wolfsburg,34,10,7,17,34,52,-18,37,1.09,27586,Mario Gómez - 16,Koen Casteels,→ German 1/2 Relegation/Promotion Playoffs
+17,Ingolstadt 04,34,8,8,18,36,57,-21,32,0.94,14601,Almog Cohen - 7,Martin Hansen,Relegated
+18,Darmstadt 98,34,7,4,23,28,63,-35,25,0.74,16753,"Antonio Čolak, Mario Vrančić - 4",Michael Esser,Relegated

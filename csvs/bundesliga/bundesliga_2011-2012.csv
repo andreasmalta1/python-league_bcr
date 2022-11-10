@@ -1,21 +1,19 @@
 Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,Attendance,Top Team Scorer,Goalkeeper,Notes
-1,Montpellier,38,25,7,6,68,34,34,82,2.16,17492,Olivier Giroud - 21,Geoffrey Jourdren,→ Champions League via league finish
-2,Paris S-G,38,23,10,5,75,41,34,79,2.08,42891,Nenê - 21,Salvatore Sirigu,→ Champions League via league finish
-3,Lille,38,21,11,6,72,39,33,74,1.95,16972,Eden Hazard - 20,Mickaël Landreau,→ Champions League via league finish
-4,Lyon,38,19,7,12,64,51,13,64,1.68,33139,Lisandro López - 16,Hugo Lloris,→ Europa League via cup win 1
-5,Bordeaux,38,16,13,9,53,41,12,61,1.61,20712,Yoan Gouffran - 14,Cédric Carrasso,→ Europa League via league finish
-6,Rennes,38,17,9,12,53,44,9,60,1.58,20560,Jirès Kembo Ekoko - 10,Benoît Costil,
-7,Saint-Étienne,38,16,9,13,49,45,4,57,1.5,21533,Pierre-Emerick Aubameyang - 16,Stéphane Ruffier,
-8,Toulouse,38,15,11,12,37,34,3,56,1.47,21446,"Emmanuel Rivière, Umut Bulut - 5",Ali Ahamada,
-9,Evian,38,13,11,14,54,55,-1,50,1.32,11822,Yannick Sagbo - 10,Stephan Andersen,
-10,Marseille,38,12,12,14,45,41,4,48,1.26,40445,Loïc Rémy - 12,Steve Mandanda,→ Europa League via cup win 2
-11,Nancy,38,11,12,15,38,48,-10,45,1.18,15332,Daniel Niculae - 6,Guy N'dy Assembé,
-12,Valenciennes,38,12,7,19,40,50,-10,43,1.13,15375,"Renaud Cohade, Gaël Danic - 7",Nicolas Penneteau,
-13,Nice,38,10,12,16,39,46,-7,42,1.11,9213,"Fabián Monzón, Anthony Mounier - 8",David Ospina,
-14,Sochaux,38,11,9,18,40,60,-20,42,1.11,14025,Modibo Maïga - 9,Teddy Richert,
-15,Brest,38,8,17,13,31,38,-7,41,1.08,13543,Bruno Grougi - 9,Steeve Elana,
-16,Ajaccio,38,9,14,15,40,61,-21,41,1.08,6338,Ilan - 6,Guillermo Ochoa,
-17,Lorient,38,9,12,17,35,49,-14,39,1.03,15643,Kévin Monnet-Paquet - 6,Fabien Audard,
-18,Caen,38,9,11,18,39,59,-20,38,1.0,15280,Benjamin Nivet - 7,Alexis Thébaux,Relegated
-19,Dijon,38,9,9,20,38,63,-25,36,0.95,13597,Brice Jovial - 9,Baptiste Reynet,Relegated
-20,Auxerre,38,7,13,18,46,57,-11,34,0.89,12123,Dennis Oliech - 10,Olivier Sorin,Relegated
+1,Dortmund,34,25,6,3,80,25,55,81,2.38,80521,Robert Lewandowski - 22,Roman Weidenfeller,→ Champions League via league finish
+2,Bayern Munich,34,23,4,7,77,22,55,73,2.15,69000,Mario Gómez - 26,Manuel Neuer,→ Champions League via league finish
+3,Schalke 04,34,20,4,10,74,44,30,64,1.88,61218,Klaas-Jan Huntelaar - 29,Lars Unnerstall,→ Champions League via league finish
+4,M'Gladbach,34,17,9,8,49,24,25,60,1.76,51847,Marco Reus - 18,Marc-André ter Stegen,→ Champions League via league finish
+5,Leverkusen,34,15,9,10,52,44,8,54,1.59,28494,Stefan Kießling - 16,Bernd Leno,→ Europa League via league finish 1
+6,Stuttgart,34,15,8,11,63,46,17,53,1.56,55090,Martin Harnik - 17,Sven Ulreich,→ Europa League via league finish
+7,Hannover 96,34,12,12,10,41,45,-4,48,1.41,44826,Mohammed Abdellaoue - 11,Ron-Robert Zieler,→ Europa League via league finish
+8,Wolfsburg,34,13,5,16,47,60,-13,44,1.29,27614,"Patrick Helmes, Mario Mandžukić - 12",Diego Benaglio,
+9,Werder Bremen,34,11,9,14,49,58,-9,42,1.24,40808,Claudio Pizarro - 18,Tim Wiese,
+10,Nürnberg,34,12,6,16,38,49,-11,42,1.24,41968,"Daniel Didavi, Tomáš Pekhart - 9",Raphael Schäfer,
+11,Hoffenheim,34,10,11,13,41,47,-6,41,1.21,28026,Sejad Salihović - 9,Tom Starke,
+12,Freiburg,34,10,10,14,45,61,-16,40,1.18,22676,Papiss Cissé - 9,Oliver Baumann,
+13,Mainz 05,34,9,12,13,47,51,-4,39,1.15,32910,Eric Maxim Choupo-Moting - 10,Christian Wetklo,
+14,Augsburg,34,8,14,12,36,49,-13,38,1.12,30259,"Koo Ja-cheol, Sascha Mölders - 5",Simon Jentzsch,
+15,Hamburger SV,34,8,12,14,35,57,-22,36,1.06,53465,Mladen Petrić - 7,Jaroslav Drobný,
+16,Hertha BSC,34,7,10,17,38,64,-26,31,0.91,53449,Pierre-Michel Lasogga - 8,Thomas Kraft,→ German 1/2 Relegation/Promotion Playoffs
+17,Köln,34,8,6,20,39,75,-36,30,0.88,47482,Lukas Podolski - 18,Michael Rensing,Relegated
+18,Kaiserslautern,34,4,11,19,24,54,-30,23,0.68,42434,"Pierre de Wit, Itay Shechter - 3",Kevin Trapp,Relegated

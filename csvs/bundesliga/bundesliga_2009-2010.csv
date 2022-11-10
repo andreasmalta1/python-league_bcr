@@ -1,21 +1,19 @@
 Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,Attendance,Top Team Scorer,Goalkeeper,Notes
-1,Marseille,38,23,9,6,69,36,33,78,2.05,50097,Mamadou Niang - 18,Steve Mandanda,→ Champions League via league finish
-2,Lyon,38,20,12,6,64,38,26,72,1.89,35515,Lisandro López - 15,Hugo Lloris,→ Champions League via league finish
-3,Auxerre,38,20,11,7,42,29,13,71,1.87,12438,Ireneusz Jeleń - 14,Olivier Sorin,→ Champions League via league finish
-4,Lille,38,21,7,10,72,40,32,70,1.84,14940,"Yohan Cabaye, Pierre-Alain Frau... - 13",Mickaël Landreau,→ Europa League via league finish
-5,Montpellier,38,20,9,9,50,40,10,69,1.82,17985,Víctor Montaño - 11,Geoffrey Jourdren,→ Europa League via league finish 1
-6,Bordeaux,38,19,7,12,58,40,18,64,1.68,29267,Wendel Geraldo - 11,Cédric Carrasso,
-7,Lorient,38,16,10,12,54,42,12,58,1.53,12204,Kévin Gameiro - 17,Fabien Audard,
-8,Monaco,38,15,10,13,39,45,-6,55,1.45,7894,Nenê - 14,Stéphane Ruffier,
-9,Rennes,38,14,11,13,52,41,11,53,1.39,22660,Asamoah Gyan - 13,Nicolas Douchez,
-10,Valenciennes,38,14,10,14,50,50,0,52,1.37,12123,"Johan Audel, Fahid Ben Khalfallah... - 7",Nicolas Penneteau,
-11,Lens,38,12,12,14,40,44,-4,48,1.26,34197,Toifilou Maoulida - 10,Vedran Runje,
-12,Nancy,38,13,9,16,46,53,-7,48,1.26,16313,Youssouf Hadji - 11,Gennaro Bracigliano,
-13,Paris S-G,38,12,11,15,50,46,4,47,1.24,33154,Mevlüt Erdinç - 15,Apoula Edel,→ Europa League via cup win 2
-14,Toulouse,38,12,11,15,36,36,0,47,1.24,19229,André-Pierre Gignac - 8,Yohann Pelé,
-15,Nice,38,11,11,16,41,57,-16,44,1.16,8714,Loïc Rémy - 14,David Ospina,
-16,Sochaux,38,11,8,19,28,52,-24,41,1.08,13182,Stéphane Dalmat - 4,Teddy Richert,
-17,Saint-Étienne,38,10,10,18,27,45,-18,40,1.05,26331,Emmanuel Rivière - 8,Jérémie Janot,
-18,Le Mans,38,8,8,22,36,59,-23,32,0.84,9214,Anthony Le Tallec - 8,Didier Ovono,Relegated
-19,Boulogne,38,7,10,21,31,62,-31,31,0.82,12134,Jérémy Blayac - 6,Jean-François Bédénik,Relegated
-20,Grenoble,38,5,8,25,31,61,-30,23,0.61,13910,Danijel Ljuboja - 10,Jody Viviani,Relegated
+1,Bayern Munich,34,20,10,4,72,31,41,70,2.06,69000,Arjen Robben - 16,Hans-Jörg Butt,→ Champions League via league finish
+2,Schalke 04,34,19,8,7,53,31,22,65,1.91,61439,Kevin Kurányi - 18,Manuel Neuer,→ Champions League via league finish
+3,Werder Bremen,34,17,10,7,71,40,31,61,1.79,35990,Claudio Pizarro - 16,Tim Wiese,→ Champions League via league finish
+4,Leverkusen,34,15,14,5,65,38,27,59,1.74,29307,Stefan Kießling - 21,René Adler,→ Europa League via league finish
+5,Dortmund,34,16,9,9,54,42,12,57,1.68,77268,Lucas Barrios - 19,Roman Weidenfeller,→ Europa League via league finish 1
+6,Stuttgart,34,15,10,9,51,41,10,55,1.62,40918,Cacau - 13,Jens Lehmann,→ Europa League via league finish
+7,Hamburger SV,34,13,13,8,56,41,15,52,1.53,55240,Mladen Petrić - 8,Frank Rost,
+8,Wolfsburg,34,14,8,12,64,58,6,50,1.47,29232,Edin Džeko - 22,Diego Benaglio,
+9,Mainz 05,34,12,11,11,36,42,-6,47,1.38,20138,Aristide Bancé - 10,Heinz Müller,
+10,Eint Frankfurt,34,12,10,12,47,54,-7,46,1.35,47206,Alexander Meier - 10,Oka Nikolov,
+11,Hoffenheim,34,11,9,14,44,42,2,42,1.24,29690,Vedad Ibišević - 12,Timo Hildebrand,
+12,M'Gladbach,34,10,9,15,43,60,-17,39,1.15,46411,"Roel Brouwers, Marco Reus - 8",Logan Bailly,
+13,Köln,34,9,11,14,33,42,-9,38,1.12,48359,Milivoje Novaković - 6,Faryd Mondragón,
+14,Freiburg,34,9,8,17,35,59,-24,35,1.03,22959,Mohammadou Idrissou - 9,Simon Pouplin,
+15,Hannover 96,34,9,6,19,43,67,-24,33,0.97,38248,Didier Ya Konan - 9,Florian Fromlowitz,
+16,Nürnberg,34,8,7,19,32,58,-26,31,0.91,42336,Albert Bunjaku - 12,Raphael Schäfer,→ German 1/2 Relegation/Promotion Playoffs
+17,Bochum,34,6,10,18,33,64,-31,28,0.82,24842,Stanislav Šesták - 6,Philipp Heerwagen,Relegated
+18,Hertha BSC,34,5,9,20,34,56,-22,24,0.71,46681,Adrián Ramos - 10,Jaroslav Drobný,Relegated

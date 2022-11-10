@@ -1,21 +1,19 @@
 Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,xG,xGA,xGD,xGD/90,Attendance,Top Team Scorer,Goalkeeper,Notes
-1,Paris S-G,38,29,4,5,105,35,70,91,2.39,88.9,37.6,51.3,1.35,46911,Kylian Mbappé - 33,Alphonse Areola,→ Champions League via league finish
-2,Lille,38,22,9,7,68,33,35,75,1.97,59.5,42.1,17.4,0.46,34079,Nicolas Pépé - 22,Mike Maignan,→ Champions League via league finish
-3,Lyon,38,21,9,8,70,47,23,72,1.89,73.7,43.9,29.8,0.78,49079,Moussa Dembélé - 15,Anthony Lopes,→ Champions League via league finish
-4,Saint-Étienne,38,19,9,10,59,41,18,66,1.74,56.7,50.4,6.3,0.16,28400,Wahbi Khazri - 13,Stéphane Ruffier,→ Europa League via league finish
-5,Marseille,38,18,7,13,60,52,8,61,1.61,52.7,45.6,7.1,0.19,50140,Florian Thauvin - 16,Steve Mandanda,
-6,Montpellier,38,15,14,9,53,42,11,59,1.55,50.1,41.8,8.2,0.22,13829,Andy Delort - 14,Benjamin Lecomte,
-7,Nice,38,15,11,12,30,35,-5,56,1.47,46.3,50.0,-3.7,-0.1,19126,"Allan Saint-Maximin, Youcef Atal - 6",Walter Benítez,
-8,Reims,38,13,16,9,39,42,-3,55,1.45,38.1,45.0,-6.9,-0.18,14342,Remi Oudin - 10,Edouard Mendy,
-9,Nîmes,38,15,8,15,57,58,-1,53,1.39,50.0,56.5,-6.5,-0.17,13994,"Denis Bouanga, Renaud Ripart - 8",Paul Bernardoni,
-10,Rennes,38,13,13,12,55,52,3,52,1.37,55.6,47.6,8.0,0.21,23675,M'Baye Niang - 11,Tomáš Koubek,→ Europa League via cup win 1
-11,Strasbourg,38,11,16,11,58,48,10,49,1.29,41.3,51.2,-9.9,-0.26,25216,"Ludovic Ajorque, Lebo Mothiba - 9",Matz Sels,→ Europa League via cup win 2
-12,Nantes,38,13,9,16,48,48,0,48,1.26,49.1,47.0,2.1,0.05,25185,Emiliano Sala - 12,Ciprian Tătărușanu,
-13,Angers,38,10,16,12,44,49,-5,46,1.21,50.7,47.9,2.8,0.07,11189,Stéphane Bahoken - 11,Ludovic Butelle,
-14,Bordeaux,38,10,11,17,34,42,-8,41,1.08,39.7,53.5,-13.7,-0.36,20838,François Kamano - 10,Benoît Costil,
-15,Amiens,38,9,11,18,31,52,-21,38,1.0,35.4,49.8,-14.4,-0.38,11043,Moussa Konaté - 7,Régis Gurtner,
-16,Toulouse,38,8,14,16,35,57,-22,38,1.0,45.7,56.4,-10.7,-0.28,16224,Max Gradel - 11,Baptiste Reynet,
-17,Monaco,38,8,12,18,38,57,-19,36,0.95,47.4,50.2,-2.8,-0.07,8447,Radamel Falcao - 15,Diego Benaglio,
-18,Dijon,38,9,7,22,31,60,-29,34,0.89,39.8,58.2,-18.5,-0.49,13044,Júlio Tavares - 5,Rúnar Alex Rúnarsson,→ French 1/2 Relegation/Promotion Playoffs
-19,Caen,38,7,12,19,29,54,-25,33,0.87,31.0,63.8,-32.8,-0.86,16654,"Enzo Crivelli, Casimir Ninga - 6",Brice Samba,Relegated
-20,Guingamp,38,5,12,21,28,68,-40,27,0.71,40.4,53.4,-12.9,-0.34,14731,Marcus Thuram - 9,Marc-Aurèle Caillard,Relegated
+1,Bayern Munich,34,24,6,4,88,32,56,78,2.29,85.6,27.2,58.4,1.72,75000,Robert Lewandowski - 22,Manuel Neuer,→ Champions League via league finish
+2,Dortmund,34,23,7,4,81,44,37,76,2.24,61.5,39.9,21.5,0.63,80841,Paco Alcácer - 18,Roman Bürki,→ Champions League via league finish
+3,RB Leipzig,34,19,9,6,63,29,34,66,1.94,65.7,40.5,25.2,0.74,38380,Timo Werner - 16,Péter Gulácsi,→ Champions League via league finish
+4,Leverkusen,34,18,4,12,69,52,17,58,1.71,58.3,44.0,14.3,0.42,27990,Kai Havertz - 17,Lukáš Hrádecký,→ Champions League via league finish
+5,M'Gladbach,34,16,7,11,55,42,13,55,1.62,52.2,52.3,0.0,0.0,49668,Alassane Pléa - 12,Yann Sommer,→ Europa League via league finish
+6,Wolfsburg,34,16,7,11,62,50,12,55,1.62,47.6,48.3,-0.7,-0.02,24479,Wout Weghorst - 17,Koen Casteels,→ Europa League via league finish 1
+7,Eint Frankfurt,34,15,9,10,60,48,12,54,1.59,57.2,50.7,6.6,0.19,49794,Luka Jović - 17,Kevin Trapp,→ Europa League via league finish
+8,Werder Bremen,34,14,11,9,58,49,9,53,1.56,49.8,56.1,-6.4,-0.19,41403,Max Kruse - 11,Jiří Pavlenka,
+9,Hoffenheim,34,13,12,9,70,52,18,51,1.5,75.9,52.5,23.4,0.69,28456,Andrej Kramarić - 17,Oliver Baumann,
+10,Düsseldorf,34,13,5,16,49,65,-16,44,1.29,47.1,62.4,-15.3,-0.45,43869,"Dodi Lukebakio, Benito Raman - 10",Michael Rensing,
+11,Hertha BSC,34,11,10,13,49,57,-8,43,1.26,51.0,61.4,-10.5,-0.31,49258,Ondrej Duda - 11,Rune Jarstein,
+12,Mainz 05,34,12,7,15,46,57,-11,43,1.26,51.2,59.2,-8.0,-0.24,26246,Jean-Philippe Mateta - 14,Florian Müller,
+13,Freiburg,34,8,12,14,46,61,-15,36,1.06,40.9,61.1,-20.2,-0.6,23894,Nils Petersen - 10,Alexander Schwolow,
+14,Schalke 04,34,8,9,17,37,55,-18,33,0.97,45.6,50.1,-4.5,-0.13,60941,Daniel Caligiuri - 7,Alexander Nübel,
+15,Augsburg,34,8,8,18,51,71,-20,32,0.94,45.3,61.1,-15.8,-0.46,28623,Alfreð Finnbogason - 10,Gregor Kobel,
+16,Stuttgart,34,7,7,20,32,70,-38,28,0.82,38.0,58.2,-20.1,-0.59,54577,Mario Gómez - 7,Ron-Robert Zieler,→ German 1/2 Relegation/Promotion Playoffs
+17,Hannover 96,34,5,6,23,31,71,-40,21,0.62,37.2,67.8,-30.5,-0.9,38365,Hendrik Weydandt - 6,Michael Esser,Relegated
+18,Nürnberg,34,3,10,21,26,68,-42,19,0.56,35.7,52.9,-17.2,-0.51,40372,"Mikael Ishak, Hanno Behrens - 4",Christian Mathenia,Relegated

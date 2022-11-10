@@ -1,21 +1,19 @@
 Rk,Squad,MP,W,D,L,GF,GA,GD,Pts,Pts/MP,Attendance,Top Team Scorer,Goalkeeper,Notes
-1,Lyon,38,24,7,7,64,26,38,79,2.08,36020,Péguy Luyindula - 16,Grégory Coupet,→ Champions League via league finish
-2,Paris S-G,38,22,10,6,50,28,22,76,2.0,39087,Pauleta - 18,Jérôme Alonzo,→ Champions League via league finish
-3,Monaco,38,21,12,5,59,30,29,75,1.97,10417,Ludovic Giuly - 13,Flavio Roma,→ Champions League via league finish
-4,Auxerre,38,19,8,11,60,34,26,65,1.71,12788,Djibril Cissé - 26,Fabien Cool,→ UEFA Cup via league finish
-5,Sochaux,38,18,9,11,54,42,12,63,1.66,16612,Pierre-Alain Frau - 17,Teddy Richert,→ UEFA Cup via cup win 1
-6,Nantes,38,17,9,12,47,35,12,60,1.58,30788,Viorel Moldovan - 11,Mickaël Landreau,→ UEFA Intertoto Cup via league finish
-7,Marseille,38,17,6,15,51,45,6,57,1.5,51343,Didier Drogba - 19,Fabien Barthez,
-8,Lens,38,15,8,15,34,48,-14,53,1.39,34822,Daniel Moreira - 8,Charles Itandje,
-9,Rennes,38,14,10,14,56,44,12,52,1.37,17268,Alexander Frei - 20,Petr Čech,
-10,Lille,38,14,9,15,41,41,0,51,1.34,15104,Vladimir Manchev - 13,Grégory Wimbée,→ UEFA Intertoto Cup via league finish
-11,Nice,38,11,17,10,42,39,3,50,1.32,12022,Lilian Laslandes - 10,Damien Gregorini,→ UEFA Intertoto Cup via league finish
-12,Bordeaux,38,13,11,14,40,43,-3,50,1.32,23524,"Jean-Claude Darcheville, Juan Pablo Francia - 7",Ulrich Ramé,
-13,Strasbourg,38,10,13,15,43,50,-7,43,1.13,16573,"Ulrich Le Pen, Mamadou Niang - 9",Richard Dutruel,
-14,Metz,38,11,9,18,34,42,-8,42,1.11,18052,Toifilou Maoulida - 12,Ludovic Butelle,
-15,Ajaccio,38,10,10,18,33,55,-22,40,1.05,4083,Mamadou Bagayoko - 8,Stéphane Trévisan,
-16,Toulouse,38,9,12,17,31,44,-13,39,1.03,20070,Cédric Fauré - 10,Christophe Revault,
-17,Bastia,38,9,12,17,33,49,-16,39,1.03,6002,Florian Maurice - 8,Nicolas Penneteau,
-18,Guingamp,38,10,8,20,36,58,-22,38,1.0,14730,Moumouni Dagano - 8,Ronan Le Crom,Relegated
-19,Le Mans,38,9,11,18,35,57,-22,38,1.0,12852,Daniel Cousin - 11,Jean-François Bédénik,Relegated
-20,Montpellier,38,8,7,23,41,74,-33,31,0.82,11962,Habib Bamogo - 16,Rudy Riou,Relegated
+1,Werder Bremen,34,22,8,4,79,38,41,74,2.18,37525,Aílton Gonçalves - 28,Andreas Reinke,→ Champions League via league finish
+2,Bayern Munich,34,20,8,6,70,39,31,68,2.0,55471,Roy Makaay - 23,Oliver Kahn,→ Champions League via league finish
+3,Leverkusen,34,19,8,7,73,39,34,65,1.91,22500,Dimitar Berbatov - 16,Hans-Jörg Butt,→ Champions League via league finish
+4,Stuttgart,34,18,10,6,52,24,28,64,1.88,43411,Kevin Kurányi - 11,Timo Hildebrand,→ UEFA Cup via league finish
+5,Bochum,34,15,11,8,57,39,18,56,1.65,27188,Vahid Hashemian - 16,Rein van Duijnhoven,→ UEFA Cup via league finish
+6,Dortmund,34,16,7,11,59,48,11,55,1.62,79647,"Ewerthon, Jan Koller - 16","Guillaume Warmuz, Roman Weidenfeller",→ UEFA Intertoto Cup via league finish
+7,Schalke 04,34,13,11,10,49,42,7,50,1.47,61144,Ebbe Sand - 9,Frank Rost,→ UEFA Intertoto Cup via league finish
+8,Hamburger SV,34,14,7,13,47,60,-13,49,1.44,48181,Bernardo Romeo - 11,Stefan Wächter,→ UEFA Intertoto Cup via league finish
+9,Hansa Rostock,34,12,8,14,55,54,1,44,1.29,22324,Martin Max - 20,Mathias Schober,
+10,Wolfsburg,34,13,3,18,56,61,-5,42,1.24,23046,Diego Klimowicz - 15,Simon Jentzsch,→ UEFA Intertoto Cup via league finish
+11,M'Gladbach,34,10,9,15,40,49,-9,39,1.15,32276,"Václav Svěrkoš, Arie van Lent - 9",Jörg Stiel,
+12,Hertha BSC,34,9,12,13,42,59,-17,39,1.15,40509,Marcelinho Paraíba - 8,Gábor Király,
+13,Freiburg,34,10,8,16,42,67,-25,38,1.12,24485,Aleksandre Iashvili - 9,Richard Golz,
+14,Hannover 96,34,9,10,15,49,63,-14,37,1.09,23435,Thomas Brdarić - 12,Marc Ziegler,
+15,Kaiserslautern,34,11,6,17,39,62,-23,36,1.06,38620,Miroslav Klose - 10,Tim Wiese,3-point deduction 1
+16,Eint Frankfurt,34,9,5,20,36,53,-17,32,0.94,26319,Ervin Skela - 8,Oka Nikolov,Relegated
+17,1860 Munich,34,8,8,18,32,55,-23,32,0.94,35099,Benjamin Lauth - 9,Michael Hofmann,Relegated
+18,Köln,34,6,5,23,32,57,-25,23,0.68,40035,Lukas Podolski - 10,Stefan Wessels,Relegated
