@@ -58,8 +58,8 @@ def freeze_video(league_short_name):
                         .with_start(0))
           
     final = CompositeVideoClip([video, logo, footer_one, footer_two])
-    ffmpeg_extract_subclip("video1.mp4", 0, (final.duration - 3), targetname="test.mp4")
-    final.write_videofile(f'videos/{league_short_name}_clubs_final.mp4',codec='libx264')
+    final.write_videofile(f'videos/{league_short_name}_clubs_draft.mp4',codec='libx264')
+    ffmpeg_extract_subclip(f'videos/{league_short_name}_clubs_draft.mp4', 0, (final.duration - 3), f'videos/final/{league_short_name}_clubs.mp4')
 
 
 def main():
@@ -83,8 +83,8 @@ def main():
         league_short_name = leagues[competition_name]['shorthand']
         year = leagues[competition_name]['start_year']
         
-        df = get_final_df(league_short_name, year)
-        get_video(df, competition_name, league_short_name, year)
+        # df = get_final_df(league_short_name, year)
+        # get_video(df, competition_name, league_short_name, year)
         freeze_video(league_short_name)
     
 
