@@ -83,8 +83,8 @@ def main():
         league_short_name = leagues[competition_name]['shorthand']
         year = leagues[competition_name]['start_year']
         
-        # df = get_final_df(league_short_name, year)
-        # get_video(df, competition_name, league_short_name, year)
+        df = get_final_df(league_short_name, year)
+        get_video(df, competition_name, league_short_name, year)
         freeze_video(league_short_name)
     
 
